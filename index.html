@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="sv-se">
+
 <head>
   <meta charset="utf-8">
   <title>CV</title>
 </head>
+
 <style>
   div.page-container
   {
     width:100%;
+    overflow:auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   div.left-container
@@ -17,9 +20,13 @@
     color:cadetblue;
     float:left;
   }
+  div.left-container p
+  {
+    margin:4%;
+  }
   p.contact-details
   {
-    text-align:right;
+    text-align:center;
   }
   p.merits
   {
@@ -37,23 +44,51 @@
     color:black;
     float:right;
   }
+  div.right-container p
+  {
+    margin:3%;
+  }
 </style>
+
 <body>
 
 <div class="page-container">
+
+  <!-- profil -->
+
   <div class="left-container">
     <img src="/bilder/bild.png" alt="Porträtt">
     <p class="contact-details">
-        Robert L.<br>
+        Robert<br>
         email@email.com<br>
         +46-(0)70-12345678
     </p>
+    <br>
     <p class="merits">
-      abcdefg
+      C, C++<br>
+      Lång erfarenhet<br><br>
+      Python<br>
+      Lång erfarenhet<br><br>
+      C#/.NET, WinForms, WPF<br>
+      Goda färdigheter<br><br>
+      Java<br>
+      Goda färdigheter<br><br>
+      HTML, CSS, Javascript<br>
+      Grundläggande färdigheter<br><br>
+    </p>
+    <p class="merits">
+      Svenska<br>
+      Modersmål<br><br>
+      Engelska<br>
+      Professionell nivå
     </p>
   </div>
 
+  <!-- arbetslivserfarenheter -->
+
   <div class="right-container">
+    <p>ARBETSLIVSERFARENHETER</p>
+
     <p>
       BEIJER ELECTRONICS<br>
       Januari 2023 &mdash; Augusti 2023
@@ -61,12 +96,42 @@
     <p>
       Systemutveckling på ARM-baserade HMI-paneler med Windows Embedded Compact 2013 och Windows 10 IoT Enterprise.<br><br>
       Utveckling av applikationer i C#/.NET med WinForms och WPF.<br><br>
-      Felsökning och utökning av firmware i C och C++.<br><br>
+      Felsökning och utveckling av firmware i C och C++.<br><br>
       Utveckling av kerneldrivrutiner i C++.
+    </p>
+
+  <!-- utbildning -->
+
+  <p>UTBILDNING</p>
+
+    <p>
+      FULLSTACKUTVECKLING, LEXICON AB<br>
+      Oktober 2023 &mdash; Juni 2024
+    </p>
+    <p>
+      Utbildning inom fullstackutveckling med fokus på Microsoft-system.<br><br>
+      HTML, CSS, Javascript, C#/.NET, ASP.NET
+    </p>
+
+    <p>
+      IOT OCH INBYGGDA SYSTEM, KYH YRKESHÖGSKOLA<br>
+      Augusti 2021 &mdash; Juli 2023
+    </p>
+    <p>
+      Utbildning inom IoT och inbyggda system.<br><br>
+      Python, Java, C, AWS, Microcontrollers
+    </p>
+
+    <p>
+      GYMNASIEUTBILDNING<br>
+    </p>
+    <p>
+      Naturvetenskap med teknisk inriktning, C++ och Java som fördjupningsämnen.
     </p>
 
   </div>
 </div>
 
 </body>  
+
 </html>
