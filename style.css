@@ -1,13 +1,20 @@
 
+body
+{
+  background-color:black;
+}
+
 .flex-container
 {
   display:flex;
   flex-direction:row;
-  width:100%;
+  width:fit-content;
+  margin:auto;
   overflow:auto;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:smaller;
 }
+
 div.left-container
 {
   width:35%;
@@ -15,15 +22,18 @@ div.left-container
   color:rgb(150, 204, 206);
   float:left;
 }
+
 p.contact-details
 {
   text-align:center;
 }
+
 div.merits
 {
   margin:4%;
   text-align:left;
 }
+
 div.left-container img
 {
   width:100%;
@@ -32,6 +42,7 @@ div.left-container img
   scale:80%;
   border-radius:50%;
 }
+
 div.right-container
 {
   width:65%;
@@ -39,36 +50,35 @@ div.right-container
   color:black;
   float:right;
 }
+
 div.right-container p
 {
   margin:3%;
 }
+
 p.category
 {
   font-size:large;
   font-weight:bold;
 }
+
 p.sub-item
 {
   font-weight:bold;
 }
+
 p.merit-item::first-line
 { 
   font-weight:bold;
   margin-bottom:0%;
 }
-a:link
+
+a
 {
   color:unset;
-}
-a:link
-{
   text-decoration:none;
 }
-a:visited
-{
-  text-decoration:none;
-}
+
 a:hover
 {
   text-decoration:underline;
