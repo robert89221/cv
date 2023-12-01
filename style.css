@@ -15,16 +15,13 @@ div.left-container
   color:rgb(150, 204, 206);
   float:left;
 }
-div.left-container p
-{
-  margin:4%;
-}
 p.contact-details
 {
   text-align:center;
 }
-p.merits
+div.merits
 {
+  margin:4%;
   text-align:left;
 }
 div.left-container img
@@ -54,6 +51,11 @@ p.category
 p.sub-item
 {
   font-weight:bold;
+}
+p.merit-item::first-line
+{ 
+  font-weight:bold;
+  margin-bottom:0%;
 }
 a:link
 {
